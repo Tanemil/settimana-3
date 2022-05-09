@@ -1,0 +1,26 @@
+body div {
+    margin: 10% 35%;
+    background-color: rgb(87, 27, 0);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    text-align: center;
+    padding: 4rem;
+    border-radius: 25%;
+    border: 4px dotted rgb(255, 255, 189);
+}
+
+body div p{
+    font-weight: bold ;
+    color: rgb(236, 222, 156);
+    text-shadow: 5px 5px 10px rgb(255, 247, 220);
+}
+
+@keyframes colore{
+    from {color: rgb(31, 182, 137)} ;
+    to {} ;
+}
+
+body div h1{
+    color: rgb(182, 31, 149);
+    animation: colore 2s ease-out infinite alternate ;
+    text-shadow: 5px 5px 10px rgb(44, 0, 0);
+}
